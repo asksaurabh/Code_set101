@@ -8,6 +8,7 @@ void bubble_sort(int *a, int n){
 	for(int itr=1; itr <= n-1; itr++){
 
 		//We have to do pariwise swapping in each iteration..
+		//First make a run in copy and then code..
 
 		for(int j = 0; j <= n-itr-1 ; j++){
 
