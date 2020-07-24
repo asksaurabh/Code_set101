@@ -35,7 +35,7 @@ int main(){
 	cout<<xptr<<endl;
 	cout<< &z <<endl;
 
-
+	
 
 	return 0;
 }
