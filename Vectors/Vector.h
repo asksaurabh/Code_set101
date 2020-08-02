@@ -1,21 +1,22 @@
 
+template<typename T>
 class Vector{
 
 	int cs;  //current size of array
 	int ms;  //max size of the array
-	int *arr;     //pointer to an array
+	T *arr;     //pointer to an array
 
 public:
 	Vector(){
 		cs = 0;
 		ms = 1;
-		arr = new int[ms];
+		arr = new T[ms];
 	}
 
-	void push_back(int d){
+	void push_back(T d){
 		if(cs == ms){
-			int *oldArr = arr;
-			arr = new int[2*ms];
+			T *oldArr = arr;
+			arr = new T[2*ms];
 			ms = ms*2;
 			for(int i=0; i<cs; i++)
 				arr[i] = oldArr[i];
@@ -32,11 +33,11 @@ public:
 		cs--;
 	}
 
-	int front() const{
+	T front() const{
 		return arr[0];
 	}
 
-	int back() const{
+	T back() const{
 		return arr[cs-1];
 	}
 
@@ -47,17 +48,17 @@ public:
 	int size() const{
 		return cs;
 	}
-	
+
 	int capacity() const{      //made this function const because we r not modifying any data member.
 		return ms;
 	}
 
-	int at(const int i){
+	T at(const int i){
 		return arr[i];
 	}
 
 	//operator overloading
-	int operator[](const int i){
+	T operator[](const int i){
 		return arr[i];
 	}
 

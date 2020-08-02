@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-	Vector v;
+	Vector<int> v;
 	v.push_back(1);
 	v.push_back(2);
 	v.push_back(3);
@@ -18,8 +18,15 @@ int main(){
 		cout<<v[i]<<" ";            //See the operator func in Vector.h file. [] is overloaded.
 
 	cout<<endl;
-	cout<<v.size()<<" "<<v.capacity();
+	cout<<v.size()<<" "<<v.capacity()<<endl;
 
+	Vector<char> c;
+	c.push_back('A');
+	c.push_back('B');
+	c.push_back('C');
+
+	for(int i=0; i<c.size(); i++)
+		cout<<c[i]<<" ";
 
 	return 0;
 }
