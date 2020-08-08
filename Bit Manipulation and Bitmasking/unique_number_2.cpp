@@ -1,3 +1,4 @@
+// LINK-->> https://hack.codingblocks.com/app/practice/5/213/problem
 #include<iostream>
 using namespace std;
 
