@@ -20,8 +20,8 @@ int main(){
 	
 	for(int i=0; i<n; i++){
 
-		if( a[i] >= maxi)
-			maxi = a[i];
+		if( a[i] >= maxi)         // Don't forget = comparison.
+			maxi = a[i];        //Normal Comparisons.
 
 		if( a[i] <= mini)
 			mini = a[i];
