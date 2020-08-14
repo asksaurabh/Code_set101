@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+// Pair sum problem.
 int main(){
 
 	int a[100], n,k;
