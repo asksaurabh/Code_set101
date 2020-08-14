@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// O(n^3) Method:
+
 int main(){
 	
 	int a[100], n,left,right;
@@ -39,6 +41,5 @@ int main(){
 	for(int i=left; i<=right; i++){
 		cout<<a[i]<<",";
 	}
-
 	return 0;
 }
