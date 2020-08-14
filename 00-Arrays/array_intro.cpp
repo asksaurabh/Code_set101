@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-	int a[10] = {1,2,3};
+	int a[10] = {1,2,3};   //declaration + init.
 	int n;
 
 	for(int i=0; i<10; i++){
