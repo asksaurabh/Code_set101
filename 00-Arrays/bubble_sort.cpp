@@ -2,7 +2,6 @@
 using namespace std;
 
 void bubble_sort(int *a, int n){
-
 	//We need to move n-1 Large elements to the end.
 
 	for(int itr=1; itr <= n-1; itr++){
