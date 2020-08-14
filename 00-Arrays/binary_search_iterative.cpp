@@ -44,5 +44,4 @@ int main(){
 	val == -1? cout<<"Element not found!" : cout<<"Element found at index "<<val;
 
 	return 0;
-
 }	
