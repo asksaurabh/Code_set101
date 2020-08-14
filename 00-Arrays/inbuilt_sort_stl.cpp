@@ -1,10 +1,10 @@
 #include<iostream>
 #include<algorithm>
-
 using namespace std;
 
 bool compare(int a, int b){     //This function decides how to compare two integers.	
 
+	//remember here a is (i+1)th element and b is (i)th index.
 	cout<<"Comparing "<<a<<" and "<<b<<endl;
 	return a > b;
 }
