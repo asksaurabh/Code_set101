@@ -2,7 +2,6 @@
 using namespace std;
 
 void insertion_sort(int *a, int n){
-
 	//My first element is always sorted, So I have to traverse from 1 to n-1 in the array...
 	for(int i=1; i<n; i++){
 
