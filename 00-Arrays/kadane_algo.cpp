@@ -28,7 +28,7 @@ int main(){
 		if(cs > ms){
 			ms = cs;
 
-			final_left = left;
+			final_left = left;         //Be careful about indexes..
 			right = i;
 		}
 	}
