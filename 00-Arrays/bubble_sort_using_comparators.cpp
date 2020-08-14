@@ -2,7 +2,7 @@
 using namespace std;
 
 bool compare(int a, int b){
-	return a<b ;
+	return a<b ;                 //Analyse it first.
 }
 
 void bubble_sort(int *a, int n, bool (&cmp) (int a,int b)){
