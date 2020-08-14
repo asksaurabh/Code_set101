@@ -39,7 +39,7 @@ int main(){
 
 		maxi = max(a[i],maxi);
 
-		mini = min(mini,a[i]);
+		mini = min(mini,a[i]);          //Inbuilt functions.
 	}
 	
 
