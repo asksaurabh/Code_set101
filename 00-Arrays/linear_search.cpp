@@ -24,7 +24,7 @@ int main(){
 
 		if(a[i] == key){
 			cout<<"Element found at index: "<<i;
-			break;
+			break;                //No need to check further.
 		}
 	}
 
