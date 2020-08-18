@@ -11,8 +11,8 @@ int factorial(int n){
 	int ans = n * factorial(n-1);
 	return ans;
 }
-int main(){
 
+int main(){
 	int n;
 
 	cout<<"Enter the number you want the factorial of:";
