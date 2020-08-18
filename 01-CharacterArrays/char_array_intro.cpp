@@ -15,7 +15,6 @@ int main(){
 	cin>>c;             //No need to use for loop for input as in character arrays.
 	cout<<c<<endl;
 	*/
-	
 	char s1[] = {'h','e','l','l','o'};
 	char s2[] = "hello";
 
