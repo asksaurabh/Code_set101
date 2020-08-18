@@ -13,6 +13,7 @@ int factorial(int n){
 }
 
 int main(){
+	
 	int n;
 
 	cout<<"Enter the number you want the factorial of:";
