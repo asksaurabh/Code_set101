@@ -17,7 +17,7 @@ bool isPalindromic(char a[]){
 		else
 			return false;
 	}
-	return true;
+	return true;         //If pointer comes here then it is palindromic.
 }
 int main(){
 
