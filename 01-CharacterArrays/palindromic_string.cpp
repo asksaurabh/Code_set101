@@ -14,7 +14,6 @@ bool isPalindromic(char a[]){
 			i++;
 			j--;
 		}
-
 		else
 			return false;
 	}
