@@ -14,7 +14,6 @@ void getline(char a[], int maxlen, char delim = '\n'){
 
 		if(i == maxlen-1)    //Why maxlen-1? beacuse we have to reserve a space for null character.
 			break;
-
 		ch = cin.get();
 	}
 
