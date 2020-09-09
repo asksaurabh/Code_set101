@@ -24,6 +24,8 @@ int main(){
 		if(len > largest_len){
 			largest_len = len;
 
+			//IMPLEMENTING strcpy() function
+			
 			for(k=0; ch[k]!= '\0'; k++){        //Don't declare int i inside.(USE k).Two interconnected loops no same variable.
 
 				largest[k] = ch[k];				//Otherwise when u use it outside it will be out of local scope.
