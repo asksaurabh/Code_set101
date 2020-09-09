@@ -17,7 +17,6 @@ void remove_duplicates(char a[]){
 	for(int curr = 1; curr < l; curr++){
 
 		if(a[prev] != a[curr]){
-
 			prev++;
 			a[prev] = a[curr];
 		}
